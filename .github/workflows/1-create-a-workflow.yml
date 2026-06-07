@@ -1,5 +1,5 @@
 name: Step 1, Create a workflow
-
+# featA change2
 # This step triggers after every push to welcome-workflow.
 # This workflow updates from step 1 to step 2.
 
@@ -10,7 +10,7 @@ on:
   push:
     branches:
       - welcome-workflow
-
+# featB change1
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
   # Need `contents: read` to checkout the repository.
