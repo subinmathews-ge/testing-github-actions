@@ -10,7 +10,7 @@ on:
   push:
     branches:
       - welcome-workflow
-
+# new line 001
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
   # Need `contents: read` to checkout the repository.
